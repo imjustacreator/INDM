@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">INDM ریموت</string>
+    <string name="empty_title">اتصال به کامپیوتر</string>
+    <string name="empty_hint">در کامپیوتر برنامهٔ INDM را باز کنید، از ابزارها « کنترل با گوشی را بزنید و روشنش کنید، بعد کدی را که نشان می‌دهد اسکن کنید. گوشی و کامپیوتر باید روی یک وای‌فای باشند.</string>
+    <string name="offline_title">به کامپیوتر دسترسی نیست</string>
+    <string name="offline_hint">مطمئن شوید کامپیوتر روشن است، INDM اجراست و کنترل با گوشی روشن است، و هر دو روی یک وای‌فای هستند.</string>
+    <string name="btn_scan">اسکن کد QR</string>
+    <string name="btn_enter">وارد کردن دستی آدرس</string>
+    <string name="btn_retry">تلاش دوباره</string>
+    <string name="menu_scan">اسکن کد QR</string>
+    <string name="menu_enter">وارد کردن دستی آدرس</string>
+    <string name="menu_notify">اعلان پایان دانلود</string>
+    <string name="menu_reload">بارگذاری دوباره</string>
+    <string name="menu_battery">تنظیمات باتری</string>
+    <string name="menu_forget">فراموش کردن این کامپیوتر</string>
+    <string name="scan_title">اسکن کد QR</string>
+    <string name="scan_hint">دوربین را روی کدی که INDM در کامپیوتر نشان می‌دهد بگیرید</string>
+    <string name="scan_bad">این کد مال INDM نیست</string>
+    <string name="scan_perm">برای اسکن، اجازهٔ دوربین لازم است. می‌توانید آدرس را دستی وارد کنید.</string>
+    <string name="scan_nocam">دوربین باز نشد. می‌توانید آدرس را دستی وارد کنید.</string>
+    <string name="enter_title">آدرس کامپیوتر</string>
+    <string name="enter_msg">آدرسی را که INDM زیر کد QR نشان می‌دهد وارد کنید.</string>
+    <string name="enter_bad">این آدرس INDM معتبر نیست</string>
+    <string name="pair_first">اول به کامپیوتر وصل شوید</string>
+    <string name="listen_failed">شروع گوش‌دادن ممکن نشد</string>
+    <string name="notif_denied">اعلان‌ها برای این برنامه بسته است. در تنظیمات گوشی اجازه بدهید.</string>
+    <string name="storage_denied">برای ذخیرهٔ فایل، اجازهٔ حافظه لازم است.</string>
+    <string name="battery_title">برای کار کردن اعلان‌ها</string>
+    <string name="battery_msg">برای اینکه حتی وقتی گوشی خواب است اعلان بگیرید، اجازه بدهید INDM ریموت از بهینه‌سازی باتری مستثنا شود. مصرف باتری آن بسیار کم است.</string>
+    <string name="battery_yes">باز کردن تنظیمات</string>
+    <string name="battery_no">فعلاً نه</string>
+    <string name="battery_missing">این گوشی چنین تنظیمی ندارد</string>
+    <string name="ch_status">اتصال</string>
+    <string name="ch_done">دانلودها</string>
+    <string name="status_ok">به کامپیوتر وصل است</string>
+    <string name="status_wait">در انتظار کامپیوتر…</string>
+    <string name="done_title">دانلود تمام شد</string>
+    <string name="fail_title">دانلود ناموفق بود</string>
+    <string name="invalid">کد کامپیوتر عوض شده است. دوباره کد QR را اسکن کنید.</string>
+    <string name="saving">در حال ذخیره روی گوشی…</string>
+    <string name="saving_started">ذخیره در Downloads/INDM</string>
+    <string name="saved">ذخیره شد در Downloads/INDM</string>
+    <string name="save_failed">ذخیرهٔ فایل ممکن نشد</string>
+</resources>

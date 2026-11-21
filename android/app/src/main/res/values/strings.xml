@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">INDM Remote</string>
+    <string name="empty_title">Connect to your PC</string>
+    <string name="empty_hint">On the PC open INDM, choose Tools › Phone control, turn it on, then scan the code shown there. Phone and PC must be on the same Wi-Fi.</string>
+    <string name="offline_title">Cannot reach your PC</string>
+    <string name="offline_hint">Check that the PC is on, INDM is running with Phone control turned on, and both are on the same Wi-Fi.</string>
+    <string name="btn_scan">Scan QR code</string>
+    <string name="btn_enter">Type the address</string>
+    <string name="btn_retry">Try again</string>
+    <string name="menu_scan">Scan QR code</string>
+    <string name="menu_enter">Type the address</string>
+    <string name="menu_notify">Notify when a download finishes</string>
+    <string name="menu_reload">Reload</string>
+    <string name="menu_battery">Battery settings</string>
+    <string name="menu_forget">Forget this PC</string>
+    <string name="scan_title">Scan QR code</string>
+    <string name="scan_hint">Point the camera at the code shown in INDM on your PC</string>
+    <string name="scan_bad">This is not an INDM code</string>
+    <string name="scan_perm">The camera permission is needed to scan. You can type the address instead.</string>
+    <string name="scan_nocam">The camera could not be opened. You can type the address instead.</string>
+    <string name="enter_title">PC address</string>
+    <string name="enter_msg">Type the address shown under the QR code in INDM.</string>
+    <string name="enter_bad">This is not a valid INDM address</string>
+    <string name="pair_first">Connect to your PC first</string>
+    <string name="listen_failed">Could not start listening</string>
+    <string name="notif_denied">Notifications are blocked for this app. Allow them in the phone settings.</string>
+    <string name="storage_denied">Storage permission is needed to save files.</string>
+    <string name="battery_title">Keep notifications working</string>
+    <string name="battery_msg">To get a notification even when the phone sleeps, allow INDM Remote to ignore battery optimization. It uses very little battery.</string>
+    <string name="battery_yes">Open settings</string>
+    <string name="battery_no">Not now</string>
+    <string name="battery_missing">This phone has no such setting</string>
+    <string name="ch_status">Connection</string>
+    <string name="ch_done">Downloads</string>
+    <string name="status_ok">Connected to your PC</string>
+    <string name="status_wait">Waiting for your PC…</string>
+    <string name="done_title">Download finished</string>
+    <string name="fail_title">Download failed</string>
+    <string name="invalid">The PC code changed. Scan the QR code again.</string>
+    <string name="saving">Saving to the phone…</string>
+    <string name="saving_started">Saving to Downloads/INDM</string>
+    <string name="saved">Saved in Downloads/INDM</string>
+    <string name="save_failed">Could not save the file</string>
+</resources>
