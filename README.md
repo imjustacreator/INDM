@@ -36,7 +36,7 @@ Multi-connection acceleration, resume, queues, a browser extension, phone contro
 2. Download `INDM.exe` (portable) or `INDM_Setup.exe` (installer).
 3. Run it. Windows SmartScreen or your antivirus may warn about an unsigned program; this is expected for a small independent project.
 
-Requirements: Windows 10 or newer.
+Requirements: Windows 10 or 11.
 
 ### Browser extension
 
@@ -53,14 +53,6 @@ Requirements: Windows 10 or newer.
 
 How to build the Android app (GitHub Actions, nothing to install) is in [`README_ANDROID.txt`](README_ANDROID.txt) inside the Android package.
 The connection is plain HTTP on your own network and protected by a secret in the address, so use it on your own Wi-Fi only. "New code" in the dialog locks out old codes.
-
-### Build from source
-
-```bat
-build.bat
-```
-
-This creates `INDM.exe` in the same folder. Use **Python 3.12** (Python 3.14 ships Tk 9, which PyInstaller does not handle yet). `make_installer.bat` builds the installer if [Inno Setup](https://jrsoftware.org/isinfo.php) is installed.
 
 To enable update checks in your own fork, put `owner/repository` in `UPDATE_REPO` in `api.py` and publish releases that contain `INDM.exe` and `INDM.exe.sha256`.
 
@@ -95,8 +87,7 @@ INDM is an early release. Most features are tested with automated tests and fake
 ۲. `INDM.exe` (قابل‌حمل) یا `INDM_Setup.exe` (نصب‌کننده) را دانلود کنید.
 ۳. اجرا کنید. ممکن است SmartScreen یا آنتی‌ویروس برای برنامهٔ بدون امضا هشدار بدهد؛ برای یک پروژهٔ مستقل کوچک طبیعی است.
 
-نیازمندی: ویندوز ۱۰ یا جدیدتر.
-
+نیازمندی: ویندوز 10 یا 11.
 ### افزونهٔ مرورگر
 
 ۱. در INDM به **ابزارها › افزونهٔ مرورگر** بروید و دکمهٔ مرورگر خود را بزنید. کد اتصال نشان داده می‌شود؛ کپی کنید.
@@ -111,14 +102,6 @@ INDM is an early release. Most features are tested with automated tests and fake
 ۳. برنامه می‌تواند فایل‌های کامل‌شده را در `Downloads/INDM` ذخیره کند و پایان دانلود را اعلان بدهد.
 
 ارتباط روی شبکهٔ خودتان و بدون رمزنگاری (HTTP) است و با یک بخش مخفی در آدرس محافظت می‌شود؛ پس فقط روی وای‌فای خودتان استفاده کنید. با «کد جدید» کدهای قبلی بی‌اثر می‌شوند.
-
-### ساخت از روی سورس
-
-```bat
-build.bat
-```
-
-این کار `INDM.exe` را در همان پوشه می‌سازد. از **Python 3.12** استفاده کنید (پایتون 3.14 با Tk 9 می‌آید که PyInstaller هنوز خوب پشتیبانی نمی‌کند). اگر Inno Setup نصب باشد، `make_installer.bat` نصب‌کننده را می‌سازد.
 
 ### وضعیت
 
